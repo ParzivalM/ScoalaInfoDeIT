@@ -1,0 +1,39 @@
+.wrapper {
+    font-weight: Bold;
+    color: tomato;
+    font-style: oblique;
+}
+
+a {
+    font-family: Tahoma;
+    font-size: large;
+    background-color: dodgerblue;
+    text-decoration: none;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: purple;
+}
+
+#header {
+    background-color: yellowgreen;
+    opacity: 50%;
+    background: rgba(76, 175, 80, 0.3);
+}
+header:hover, header.important{
+    color: yellow;
+
+    border-style: solid;
+
+    border-width: 5px;
+
+    border-color: purple;
+}
+
+article {
+    font-variant-emoji: auto;
+    font-size: 12px;
+}
+

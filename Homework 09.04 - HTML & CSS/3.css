@@ -1,0 +1,30 @@
+.wrapper {
+    margin-right: auto;
+    margin-left:  auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left:  10px;
+}
+
+a {
+    font-family: SansSerif;
+    font-size: xx-small;
+    background-color: deeppink;
+    text-decoration: none;
+}
+
+#header {
+    background-color: whitesmoke;
+    border-bottom-width: 120px;
+    font-weight: bold;
+
+}
+
+body {
+    background-image: url("http://www.tractionnews.com/wp-content/uploads/2017/12/niken_main-e1513367581631.jpg");
+}
+
+article {
+    font-variant-emoji: auto;
+    font-size: 99px;
+}

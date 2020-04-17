@@ -1,0 +1,31 @@
+.wrapper {
+    width: 500px;
+    margin: auto;
+    color: teal;
+}
+
+a {
+    font-family: Pristina;
+    font-size: x-large;
+    background-color: honeydew;
+    text-decoration: lavenderblush;
+}
+
+
+#header {
+    background-color: aqua;
+    border-bottom-width: medium;
+    font-weight: bolder;
+
+}
+
+footer{
+    font-weight: bolder;
+    child-align: right;
+    animation-delay: initial;
+}
+
+article {
+    font-variant-emoji: auto;
+    font-size: 199px;
+}
