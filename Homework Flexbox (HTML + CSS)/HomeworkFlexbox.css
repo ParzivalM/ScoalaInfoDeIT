@@ -1,0 +1,57 @@
+#nav a {
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    text-align: center;
+    background-color: yellow;
+    margin: 10px;
+}
+
+
+header, footer {
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    height: 50px;
+    margin: 2px;
+    display: block;
+
+}
+#leftie {
+    margin: 5px;
+    width: 50%;
+    display: block;
+}
+#aside {
+    margin: 5px;
+    width: 20%;
+    background-colorcolor: lightseagreen;
+    text-align: center;
+}
+
+
+
+.wrapper {
+    box-sizing: content-box;
+    display: flex;
+}
+
+#articles {
+    box-sizing: border-box;
+    display: flex;
+}
+
+#article1, #article2 {
+    width: 50%;
+    text-align-all: center;
+    background-color: lightseagreen;
+    border-color: white;
+    margin:  2px;
+    display: block;
+
+
+}
+
+
+
