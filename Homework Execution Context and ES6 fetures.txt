@@ -1,0 +1,73 @@
+ex 1
+se va afisa o eroare intrucat la al doilea rand al codului variabila two nu poate fi definita, ea fiind o variabila locala declarata dupa comanda console.log
+
+ex 2
+se vor afisa 4 mesaje: globalThis: Window, this inside: Object; false, true. Pentru ca myObj (obiect) === this (al 4 lea mesaj TRUE), this este un obiect (afisat in mesajul 2), iar pentru ca globalThis nu este egal cu valoarea string this (al 3 lea mesaj, fals) in primul mesaj este afisat Window!?
+
+ex 3
+variabila text locala din LogIt() este definita abia dupa apelarea functiei console.log(text), in aceest moment ea nefiind inca definita => in consola se va afisa 'undefined'
+
+ex 4
+`Sarah is 22 and lives in San Francisco` pentru ca functia return foloseste variabile GLOBALE va folosi 'name' si 'age' din interiorul functiei (pentru ca variabilele golbale sunt redefinite in interiorul functiei) si 'city' la valoarea sa initiala la care a fost declarat inainte de functie, valoarea sa nefiind alterata in functie
+
+ex 5
+function constructor(caracter, randuri){
+    let start = ' ';
+    for (let i = 0; i < randuri; i++) {
+        start =start+caracter;
+        console.log(start);
+    }
+}
+    constructor('#',7);
+
+ex 6 (engineering de pe stack overflow)
+let sir = ['1','3','5','3','4','5','9'];
+let extras = sir.filter((item,i,ar)=>ar.indexOf(item)===i));
+console.log(extras);
+
+ex 7 
+let sir = ['1','3','5','3','4','5','9'];
+let extras = sir.filter(elem => elem.valoare > 5);
+console.log(extras); 
+
+ex 8
+function Worker (identifier, hrate){
+    this.identifier=identifier;
+    this.hrate=hrate;
+}
+
+Worker.prototype.hours=function(){
+console.log('160');
+};
+Worker.prototype.properties=function(){
+console.log('halat alb');
+};
+
+var worker1 = new Worker('doctor', 10);
+var worker2 = new Worker('profesor', 5, '140', 'catedra');
+console.log(worker1);
+console.log(worker2);
+
+NU STIU/NU AM REUSIT SA FOLOSESC CORECT PROTOTYPE
+
+ex 9
+function Food(name, protein, carbs, fat) {
+    this.name = name;
+    this.protein = protein;
+    this.carbs = carbs;
+    this.fat = fat;
+
+}
+
+var pizza = new Food('Diavola', '1000', '500', '100');
+Food.prototype.method = 'la cuptor';
+console.log(pizza);
+
+var icecream = new Food('Pistacchio', '300', '50', '500');
+Food.prototype.method = 'la congelator';
+console.log(icecream);
+
+
+
+
+
